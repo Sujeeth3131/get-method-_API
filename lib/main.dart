@@ -3,7 +3,9 @@ import 'package:flutter/material.dart';
 
 import 'demo/model_screen.dart';
 import 'demo/model_screen_1.dart';
+import 'demo/model_screen_2.dart';
 import 'home_screen.dart';
+import 'interview/work_api.dart';
 
 void main() {
   runApp(const MyApp());
@@ -36,7 +38,8 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home:Home_Screen_2(),
+      debugShowCheckedModeBanner: false,
+      home:DemoScreen_2(),
     );
   }
 }
